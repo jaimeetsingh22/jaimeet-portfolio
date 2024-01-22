@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Anton&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import "static";
+@import "header";
+@import "home";
+@import "animation";
+@import "project";
+@import "timeline";
+@import "skill";
+@import "about";
+@import "contact";
+@import "footer";
+@import "mediaquery";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: $text2;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: $color1;
+    overflow-x: hidden;
+}
+
+.disableBtn{
+    color: $color6;
+    background-color: rgba(167, 167, 167, 0.836) !important;
+    cursor: not-allowed !important;
+}
+
+#customMessage{
+    font: 900 2rem $text2;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}

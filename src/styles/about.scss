@@ -1,0 +1,37 @@
+#about{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    // background-color: $color4;
+
+            >section{
+                color: $color1;
+                padding: 1rem;
+                height: 100%;
+                width: 100%;
+                background-color: $color2;
+                >img{
+                    border-radius: 50%;
+                    display: block;
+                    margin: 2px auto;
+                    width: 200px;
+                    height: 200px;
+                    object-fit: cover;
+                    object-position: 0% 25%;
+                }
+
+                >h2{
+                    font: 700 3rem $text1;
+                    text-align: center;
+                    border-bottom: 2px solid white;
+                    margin-bottom: 2rem;
+                }
+
+                >p{
+                    letter-spacing: 2px;
+                    line-height: 1.6;
+                    font: 400 1.8rem $text1;
+                }
+                
+            }    
+}
