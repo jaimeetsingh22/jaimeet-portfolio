@@ -1,6 +1,7 @@
 import React from 'react'
-import { delay, motion } from "framer-motion"
-import { AiFillAndroid, AiFillApi, AiFillBuild, AiFillCode, AiFillCodeSandboxCircle, AiFillCodeSandboxSquare, AiFillCodepenCircle, AiFillIeCircle, AiFillWindows } from 'react-icons/ai'
+import { motion } from "framer-motion"
+import {  AiFillCode, AiFillHtml5 } from 'react-icons/ai'
+import { FaCss3, FaJs, FaReact } from 'react-icons/fa';
 
 const Skills = () => {
     const animation = {
@@ -32,17 +33,21 @@ const Skills = () => {
                     <p>Months Experience</p>
                 </motion.div>
                 <motion.div className="skillbox2" whileInView={animation.whileInView} initial={animation.twoAndThree}>
-                    <AiFillIeCircle />
-                    <span>Frontend Skill</span>
+                    <p>
+                    <AiFillHtml5/>
+                    <FaCss3 />
+                    <FaJs/>
+                    </p>
+                    <span>HTML CSS Javascript</span>
                 </motion.div>
                 <motion.div className="skillbox3" whileInView={animation.whileInView} initial={animation.twoAndThree} transition={{delay:0.2,}}>
-                    <AiFillCode />
-                    <span>Coding Skills</span>
+                    <p><AiFillCode /></p>
+                    <span>Basic in C++, Python, Java</span>
                 </motion.div>
                 <motion.div className="skillbox4" whileInView={animation.whileInView} initial={animation.four}>
-                    <AiFillWindows />
+                    <p><FaReact/></p>
                     <br />
-                    <span>Responsive Design Experience </span>
+                    <span>React Framework </span>
                 </motion.div>
             </section>
         </div>
