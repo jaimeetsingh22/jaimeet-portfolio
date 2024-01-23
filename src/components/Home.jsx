@@ -5,7 +5,7 @@ import { BsArrowUpRight, BsChevronDown } from 'react-icons/bs'
 import me from '../assets/8.png'
 7
 
-const Home = ({ratio}) => {
+const Home = () => {
     const projectCount = useRef();
 
     const animationProjectCount = () => {
@@ -74,9 +74,7 @@ const Home = ({ratio}) => {
 
                         <article>
                             <p>
-                                {
-                                    ratio < 600 && <motion.span ref={projectCount} whileInView={animationProjectCount}>10</motion.span>
-                                }+
+                                <motion.span ref={projectCount} whileInView={animationProjectCount}>10</motion.span>+
                             </p>
                             <span>Projects Done</span>
                         </article>
