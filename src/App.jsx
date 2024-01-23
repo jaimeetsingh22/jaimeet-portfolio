@@ -36,7 +36,7 @@ useEffect(() => {
     <>
       <SideMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-      <Home ratio={ratio} />
+      <Home />
       <JsProject />
       <ReactProjects />
       <TimeLine />
