@@ -38,18 +38,12 @@
     width: 50%;
     z-index: 100;
 
-    &:nth-child(odd){
+    &:nth-child(n){
         &::after{
             animation: upanddown 0.3s ease-in infinite alternate;
         }
     }
     
-    &:nth-child(even){
-        text-align: right;
-        &::after{
-            animation: upanddown 0.5s ease-in infinite;
-
-        }
     }
 
     &::after{
