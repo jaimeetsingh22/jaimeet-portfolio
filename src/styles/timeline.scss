@@ -1,3 +1,5 @@
+
+
 #timeline{
     width: 100%;
     height: 190vh;
@@ -24,7 +26,9 @@
         top: 0;
         left: calc(50% - 3px);
         bottom: 0;
+        animation: line alternate 1.5s linear infinite ;
     }
+    
 }
 
 .timelineItem{
@@ -32,6 +36,7 @@
     position: relative;
     background-color: inherit;
     width: 50%;
+    z-index: 100;
 
     &:nth-child(odd){
         &::after{
@@ -42,7 +47,7 @@
     &:nth-child(even){
         text-align: right;
         &::after{
-            animation: upanddown 0.5s ease-in infinite alternate;
+            animation: upanddown 0.5s ease-in infinite;
 
         }
     }
@@ -58,7 +63,7 @@
         // transform: translateY(-50%); 
         border-radius: 50%;
         // box-shadow: 0 0 0 7px rgba($color1, .5), inset 0 0 0 7px rgba($color1,.5);
-        z-index: 1;
+        z-index: 100;
         background-color: $color1;
         // border: 2px solid red;
     }
