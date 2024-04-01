@@ -16,7 +16,7 @@ const TimeLine = () => {
   }
   const projectElement = []
 
-  for (let i = 0; i < data['js-projects'].length; i++) {
+  for (let i = 0; i < data['projects'].length; i++) {
     projectElement.push(
       {
         name: data['projects'][i].title,
