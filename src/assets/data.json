@@ -36,6 +36,13 @@
         "description": "This is my personal portfolio which contains all information about me",
         "url": "/",
         "imgSrc": "https://cdn.pixabay.com/photo/2020/03/19/21/25/cactus-4948833_960_720.jpg"
+      },
+      {
+        "date": "05/03/2024",
+        "title": "LEARN-LANGUAGES",
+        "description": "This a language learning app in which you can learn different languages and it is made using React typescript ",
+        "url": "https://react-learn-languages-tsx.vercel.app/",
+        "imgSrc": "https://blogassets.leverageedu.com/blog/wp-content/uploads/2020/12/03195139/how-to-learn-new-languages-01.jpg"
       }
     ],
     "js-projects":[
