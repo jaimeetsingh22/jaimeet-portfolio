@@ -40,6 +40,7 @@ const TimeLine = () => {
         <TimelineItem name={projectElement[2].name} i={7} delay={1.3} date={projectElement[2].date} position={"-100%"} />
         <TimelineItem name={projectElement[3].name} i={8} delay={1.4} date={projectElement[3].date} position={"-100%"} />
         <TimelineItem name={projectElement[4].name} i={9} delay={1} date={projectElement[4].date} position={"-100%"} />
+        <TimelineItem name={projectElement[5].name} i={10} delay={1.2} date={projectElement[5].date} position={"-100%"} />
       </div>
     </div>
   )
