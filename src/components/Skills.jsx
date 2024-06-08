@@ -30,7 +30,7 @@ const Skills = () => {
             <section>
                 <motion.div className="skillbox1"  whileInView={animation.whileInView} initial={animation.one}>
                     <h3>6+</h3> 
-                    <p>Months Experience</p>
+                    <p>Months Self Experience</p>
                 </motion.div>
                 <motion.div className="skillbox2" whileInView={animation.whileInView} initial={animation.twoAndThree}>
                     <p>
@@ -38,7 +38,7 @@ const Skills = () => {
                     <FaCss3 />
                     <FaJs/>
                     </p>
-                    <span>HTML CSS Javascript</span>
+                    <span>HTML CSS Javascript, MERN stack and NEXT js</span>
                 </motion.div>
                 <motion.div className="skillbox3" whileInView={animation.whileInView} initial={animation.twoAndThree} transition={{delay:0.2,}}>
                     <p><AiFillCode /></p>
@@ -47,7 +47,7 @@ const Skills = () => {
                 <motion.div className="skillbox4" whileInView={animation.whileInView} initial={animation.four}>
                     <p><FaReact/></p>
                     <br />
-                    <span>React Framework </span>
+                    <span>React Framework and Next.js Framework</span>
                 </motion.div>
             </section>
         </div>
