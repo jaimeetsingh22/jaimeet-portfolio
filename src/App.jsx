@@ -9,6 +9,8 @@ import About from './components/About.jsx'
 import Contact from './components/Contact.jsx'
 import { Toaster } from 'react-hot-toast'
 import Footer from './components/Footer.jsx'
+import FullstackProjects from './components/FullstackProjects.jsx'
+
 
 const App = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -39,6 +41,7 @@ useEffect(() => {
       <Home />
       <JsProject />
       <ReactProjects />
+      <FullstackProjects/>
       <TimeLine />
       <Skills />
       <About />
