@@ -27,6 +27,19 @@ const TimeLine = () => {
 
   console.log(projectElement);
 
+ const FullstackElements = []
+
+  for (let i = 0; i < data["fullstack-projects"].length; i++) {
+    FullstackElements.push(
+      {
+        name: data["fullstack-projects"][i].title,
+        date: data["fullstack-projects"][i].date,
+      },
+    )
+  }
+
+  console.log(FullstackElements);
+
   return (
     <div id='timeline'>
       <div className="timelineBox">
@@ -41,6 +54,8 @@ const TimeLine = () => {
         <TimelineItem name={projectElement[3].name} i={8} delay={1.4} date={projectElement[3].date} position={"-100%"} />
         <TimelineItem name={projectElement[4].name} i={9} delay={1} date={projectElement[4].date} position={"-100%"} />
         <TimelineItem name={projectElement[5].name} i={10} delay={1.2} date={projectElement[5].date} position={"-100%"} />
+        <TimelineItem name={FullstackElements[0].name} i={9} delay={1.1} date={FullstackElements[0].date} position={"-100%"} />
+        <TimelineItem name={FullstackElements[1].name} i={9} delay={1.2} date={FullstackElements[1].date} position={"-100%"} />
       </div>
     </div>
   )
