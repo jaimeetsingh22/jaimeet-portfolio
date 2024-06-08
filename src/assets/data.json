@@ -1,85 +1,102 @@
 {
-    "projects": [
-      {
-        "date": "17/12/2023",
-        "title": "JAIMEET PAGE",
-        "description": "this is a normal single page application to understand the react basics and routing",
-        "url": "https://normal-single-page-app.vercel.app/",
-        "imgSrc": "https://cdn.pixabay.com/photo/2018/06/07/16/49/virtual-3460451_960_720.jpg"
-      },
-  
-      {
-        "date": "20/12/2023",
-        "title": "VIDEO HUB",
-        "description": "This is video hub site which is made using Chakra ui ",
-        "url": "https://my-videos-umber.vercel.app/",
-        "imgSrc": "https://cdn.pixabay.com/photo/2016/11/21/12/51/mobile-phone-1845233__340.jpg"
-      },
-      {
-        "date": "24/12/2023",
-        "title": "XCrypto",
-        "description": "This is a crypto web app which uses bitcoins api and it may be crash sometimes so keep reload while the data is compeletly fetched",
-        "url": "https://crypto-app-eta-swart.vercel.app/",
-        "imgSrc": "https://cdn.pixabay.com/photo/2017/12/12/12/44/bitcoin-3014614_960_720.jpg"
-      },
-  
-      {
-        "date": "29/12/2023",
-        "title": "REACT CART",
-        "description": "This is a react cart app. This project show the working of ecommerce cart feature and it uses state management concept that is redux.",
-        "url": "https://shopping-cart-three-indol.vercel.app/",
-        "imgSrc": "https://cdn.pixabay.com/photo/2019/12/14/08/36/shopping-4694470_960_720.jpg"
-      },
-      {
-        "date": "04/01/2024",
-        "title": "PORTFOLIO",
-        "description": "This is my personal portfolio which contains all information about me",
-        "url": "/",
-        "imgSrc": "https://cdn.pixabay.com/photo/2020/03/19/21/25/cactus-4948833_960_720.jpg"
-      },
-      {
-        "date": "05/03/2024",
-        "title": "LEARN-LANGUAGES",
-        "description": "This a language learning app in which you can learn different languages and it is made using React typescript ",
-        "url": "https://react-learn-languages-tsx.vercel.app/",
-        "imgSrc": "https://blogassets.leverageedu.com/blog/wp-content/uploads/2020/12/03195139/how-to-learn-new-languages-01.jpg"
-      }
-    ],
-    "js-projects":[
-      {
-        "date": "18/09/2023",
-        "title": "CALCULATOR",
-        "description": "this is simple calculator which is made using html css and inline javascript",
-        "url": "https://jaimeetsingh22.github.io/Calculator/",
-        "imgSrc": "https://cdn.pixabay.com/photo/2016/03/05/20/00/accountant-1238598_1280.jpg"
-      },
-      {
-        "date": "18/09/2023",
-        "title": "TODO LIST",
-        "description": "this is the todo list js project which have navigation bar and a todo form after the todo list to fulfill the page",
-        "url": "https://jaimeetsingh22.github.io/todo-list/",
-        "imgSrc": "https://images.pexels.com/photos/3243/pen-calendar-to-do-checklist.jpg"
-      },
-      {
-        "date": "08/10/2023",
-        "title": "GUESS MY NUMBER",
-        "description": "This is simple game guess my number game. In this simple project asynchronous javascript concept is used.",
-        "url": "https://jaimeetsingh22.github.io/guess-my-number/",
-        "imgSrc": "https://content.instructables.com/FGE/F6F0/K1NVATVK/FGEF6F0K1NVATVK.jpg?auto=webp"
-      },
-      {
-        "date": "10/10/2023",
-        "title": "TIC-TAC-TOE",
-        "description": "This is tic-tac-toe game which have two mode single player and two player mode and this game is made by using html css and javascript",
-        "url": "https://jaimeetsingh22.github.io/tic-tac-toe/",
-        "imgSrc": "https://cdn.pixabay.com/photo/2023/01/22/23/16/tic-tac-toe-7737546_1280.jpg"
-      },
-      {
-        "date": "14/10/2023",
-        "title": "SHOOTING GAME",
-        "description": "This is shooting game which have four levels easy, medium, hard and extreme this game is made by using vanilla javascript",
-        "url": "https://jaimeetsingh22.github.io/Shooting-Game/",
-        "imgSrc": "https://tcf.admeen.org/category/500/61/400x400/bubbles.jpg"
-      }
-    ]
-  }
+  "projects": [
+    {
+      "date": "17/12/2023",
+      "title": "JAIMEET PAGE",
+      "description": "this is a normal single page application to understand the react basics and routing",
+      "url": "https://normal-single-page-app.vercel.app/",
+      "imgSrc": "https://cdn.pixabay.com/photo/2018/06/07/16/49/virtual-3460451_960_720.jpg"
+    },
+
+    {
+      "date": "20/12/2023",
+      "title": "VIDEO HUB",
+      "description": "This is video hub site which is made using Chakra ui ",
+      "url": "https://my-videos-umber.vercel.app/",
+      "imgSrc": "https://cdn.pixabay.com/photo/2016/11/21/12/51/mobile-phone-1845233__340.jpg"
+    },
+    {
+      "date": "24/12/2023",
+      "title": "XCrypto",
+      "description": "This is a crypto web app which uses bitcoins api and it may be crash sometimes so keep reload while the data is compeletly fetched",
+      "url": "https://crypto-app-eta-swart.vercel.app/",
+      "imgSrc": "https://cdn.pixabay.com/photo/2017/12/12/12/44/bitcoin-3014614_960_720.jpg"
+    },
+
+    {
+      "date": "29/12/2023",
+      "title": "REACT CART",
+      "description": "This is a react cart app. This project show the working of ecommerce cart feature and it uses state management concept that is redux.",
+      "url": "https://shopping-cart-three-indol.vercel.app/",
+      "imgSrc": "https://cdn.pixabay.com/photo/2019/12/14/08/36/shopping-4694470_960_720.jpg"
+    },
+    {
+      "date": "04/01/2024",
+      "title": "PORTFOLIO",
+      "description": "This is my personal portfolio which contains all information about me",
+      "url": "/",
+      "imgSrc": "https://cdn.pixabay.com/photo/2020/03/19/21/25/cactus-4948833_960_720.jpg"
+    },
+    {
+      "date": "05/03/2024",
+      "title": "LEARN-LANGUAGES",
+      "description": "This a language learning app in which you can learn different languages and it is made using React typescript ",
+      "url": "https://react-learn-languages-tsx.vercel.app/",
+      "imgSrc": "https://blogassets.leverageedu.com/blog/wp-content/uploads/2020/12/03195139/how-to-learn-new-languages-01.jpg"
+    }
+  ],
+
+  "js-projects":[
+    {
+      "date": "18/09/2023",
+      "title": "CALCULATOR",
+      "description": "this is simple calculator which is made using html css and inline javascript",
+      "url": "https://jaimeetsingh22.github.io/Calculator/",
+      "imgSrc": "https://cdn.pixabay.com/photo/2016/03/05/20/00/accountant-1238598_1280.jpg"
+    },
+    {
+      "date": "18/09/2023",
+      "title": "TODO LIST",
+      "description": "this is the todo list js project which have navigation bar and a todo form after the todo list to fulfill the page",
+      "url": "https://jaimeetsingh22.github.io/todo-list/",
+      "imgSrc": "https://images.pexels.com/photos/3243/pen-calendar-to-do-checklist.jpg"
+    },
+    {
+      "date": "08/10/2023",
+      "title": "GUESS MY NUMBER",
+      "description": "This is simple game guess my number game. In this simple project asynchronous javascript concept is used.",
+      "url": "https://jaimeetsingh22.github.io/guess-my-number/",
+      "imgSrc": "https://content.instructables.com/FGE/F6F0/K1NVATVK/FGEF6F0K1NVATVK.jpg?auto=webp"
+    },
+    {
+      "date": "10/10/2023",
+      "title": "TIC-TAC-TOE",
+      "description": "This is tic-tac-toe game which have two mode single player and two player mode and this game is made by using html css and javascript",
+      "url": "https://jaimeetsingh22.github.io/tic-tac-toe/",
+      "imgSrc": "https://cdn.pixabay.com/photo/2023/01/22/23/16/tic-tac-toe-7737546_1280.jpg"
+    },
+    {
+      "date": "14/10/2023",
+      "title": "SHOOTING GAME",
+      "description": "This is shooting game which have four levels easy, medium, hard and extreme this game is made by using vanilla javascript",
+      "url": "https://jaimeetsingh22.github.io/Shooting-Game/",
+      "imgSrc": "https://tcf.admeen.org/category/500/61/400x400/bubbles.jpg"
+    }
+  ],
+  "fullstack-projects":[
+    {
+      "date": "15/04/2024",
+      "title": "BLOGGER's CORNER",
+      "description": "This is blogging fullstack web app in which MVC architecture used and made using node.js, express.js, .ejs and mongodb for database",
+      "url": "https://bloggers-corner.onrender.com/",
+      "imgSrc": "https://img.freepik.com/free-photo/blog-website-development-data-network-concept_53876-125055.jpg"
+    },
+    {
+      "date": "13/05/2024",
+      "title": "TODO LIST NEXT.js",
+      "description": "This is NEXT.JS TODO fullstack app and it is made using fastest fullstack framework NEXT JS and mongodb is used for database",
+      "url": "https://todos-nextjs.onrender.com/",
+      "imgSrc": "https://media.geeksforgeeks.org/wp-content/uploads/20230606125727/gfg.png"
+    }
+  ]
+}
